@@ -31,6 +31,11 @@
   opacity: 1;
   transform: translateY(20px);
   transition: all 0.5s ease;
+  /*    ease: 천천_빠름_천천
+        ease-in: 보통_빠르게
+        ease-out: 보통_느리게
+        ease-in-out:천천_보통_천천
+        (ease와 그래프 모양이 같은데, 기울기 변화 속도는 다르다) */
 }
 
 .timeline-item-content {
@@ -72,4 +77,16 @@
   z-index: 1;
 }
 /*  career section end */
+
+
+
+
+
+.portfolio-item {
+  cursor:pointer;
+  margin-bottom: 1.8rem;
+}
+.modal-dialog {
+  max-width: 80%;
+}
 
